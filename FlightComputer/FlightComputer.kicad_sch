@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e49ed6f8-44fe-4a80-bc0f-4dd2a2b50b4e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 35.56 80.645)
+		(size 39.37 32.385)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23fd610e-af8f-488e-aab2-8e89bddfeba4")
+		(property "Sheetname" "IO"
+			(at 35.56 79.9334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO.kicad_sch"
+			(at 35.56 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/e49ed6f8-44fe-4a80-bc0f-4dd2a2b50b4e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 33.02)
+		(size 39.37 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f82fc492-cd97-4243-936e-52c3020bdf96")
+		(property "Sheetname" "Power&Battery"
+			(at 35.56 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power&Battery.kicad_sch"
+			(at 35.56 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/e49ed6f8-44fe-4a80-bc0f-4dd2a2b50b4e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
