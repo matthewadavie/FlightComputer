@@ -81,6 +81,16 @@
 				(justify left top)
 			)
 		)
+		(pin "aIN_VBAT" input
+			(at 74.93 39.37 0)
+			(uuid "12ef5a3d-e769-4bbf-8433-61e05b2c1970")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "FlightComputer"
 				(path "/e49ed6f8-44fe-4a80-bc0f-4dd2a2b50b4e"
