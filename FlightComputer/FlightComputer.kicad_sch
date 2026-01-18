@@ -6,8 +6,150 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 35.56 80.645)
-		(size 39.37 32.385)
+		(at 35.56 109.22)
+		(size 38.1 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00b125b9-9e15-4b60-99dc-08969e5975f0")
+		(property "Sheetname" "Sensors"
+			(at 35.56 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 35.56 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "dIO_INT1_ACCEL" bidirectional
+			(at 73.66 118.11 0)
+			(uuid "b2fbfe54-0cc0-4f1f-99d4-5748d6276792")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dIO_INT2_GYRO" bidirectional
+			(at 73.66 125.73 0)
+			(uuid "0cac5b85-bf6d-40a9-9585-36ef6dbd0112")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dIN_GPS_TIMEPULSE" output
+			(at 73.66 135.89 0)
+			(uuid "fc547cd0-af56-4613-bd2d-a690f1d0605e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dO_GPS_INT" input
+			(at 73.66 133.35 0)
+			(uuid "98130849-53a3-42e0-b078-14b1488cee3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dO_GPS_RST" input
+			(at 73.66 138.43 0)
+			(uuid "17af07a8-267f-4c6e-8e64-9b521e6d7f15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 73.66 111.76 0)
+			(uuid "6a9160c8-65a1-481c-8979-d2eff6aeaaa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 73.66 114.3 0)
+			(uuid "8dbae9ab-4275-4738-ab40-1412eb078a92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dIO_INT2_ACCEL" bidirectional
+			(at 73.66 120.65 0)
+			(uuid "0dc636c9-3884-4664-92d6-c4aa5c8ba774")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dIO_INT1_GYRO" bidirectional
+			(at 73.66 123.19 0)
+			(uuid "b228f406-a8bc-4c36-906e-a9d7036ed208")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dIO_INT_BAROM" bidirectional
+			(at 73.66 129.54 0)
+			(uuid "0cdbea46-ddde-414c-be6b-4d33894ffbe3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/e49ed6f8-44fe-4a80-bc0f-4dd2a2b50b4e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 71.755)
+		(size 38.1 32.385)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +164,7 @@
 		)
 		(uuid "23fd610e-af8f-488e-aab2-8e89bddfeba4")
 		(property "Sheetname" "IO"
-			(at 35.56 79.9334 0)
+			(at 35.56 71.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +173,32 @@
 			)
 		)
 		(property "Sheetfile" "IO.kicad_sch"
-			(at 35.56 113.6146 0)
+			(at 35.56 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "dIO_USB_DP" bidirectional
+			(at 73.66 74.93 0)
+			(uuid "ba8cd23f-b20f-4647-a00d-a647ec94cdc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dIO_USB_DN" bidirectional
+			(at 73.66 77.47 0)
+			(uuid "5b5395cd-fc00-4fe5-bc07-d69ba917632d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -48,8 +210,50 @@
 		)
 	)
 	(sheet
+		(at 104.14 33.02)
+		(size 38.1 106.68)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "779d6e54-c360-49ac-b48f-25c89b139451")
+		(property "Sheetname" "Microcontroller"
+			(at 104.14 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 104.14 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FlightComputer"
+				(path "/e49ed6f8-44fe-4a80-bc0f-4dd2a2b50b4e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 35.56 33.02)
-		(size 39.37 33.02)
+		(size 38.1 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -81,9 +285,9 @@
 				(justify left top)
 			)
 		)
-		(pin "aIN_VBAT" input
-			(at 74.93 39.37 0)
-			(uuid "12ef5a3d-e769-4bbf-8433-61e05b2c1970")
+		(pin "aIN_VBAT" output
+			(at 73.66 36.83 0)
+			(uuid "e2054e6c-7e2b-406e-989c-fe57af0b1145")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1718,49 +1718,27 @@
 		)
 		(uuid "ff8655fa-c34d-411f-82d2-9fbe35425f89")
 	)
-	(global_label "USB_DP"
-		(shape input)
+	(hierarchical_label "dIO_USB_DP"
+		(shape bidirectional)
 		(at 54.61 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d1da253c-ac04-4786-abfd-c9e444c18690")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.9128 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "1c651663-e6f5-43e6-83a5-b676287c66b2")
 	)
-	(global_label "USB_DN"
-		(shape input)
+	(hierarchical_label "dIO_USB_DN"
+		(shape bidirectional)
 		(at 54.61 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "db46c0c5-1bfa-4b5b-b155-3eee110c1708")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.9733 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "dea03a9e-f46f-4b91-bf95-e70e7830e2b6")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
