@@ -4,7 +4,142 @@
 	(generator_version "9.0")
 	(uuid "e49ed6f8-44fe-4a80-bc0f-4dd2a2b50b4e")
 	(paper "A4")
+	(title_block
+		(date "2026-01-19")
+		(rev "A0.1")
+		(company "MD")
+	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 73.66 92.71) (xy 87.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074ee288-6c4d-479b-88ab-6f3951ba4a1c")
+	)
+	(wire
+		(pts
+			(xy 73.66 125.73) (xy 87.63 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ad11c9-3602-4efc-bc81-4d87979a41ac")
+	)
+	(wire
+		(pts
+			(xy 73.66 123.19) (xy 87.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2ad5f4-ada1-47b2-a6a8-d7af818fc797")
+	)
+	(wire
+		(pts
+			(xy 73.66 77.47) (xy 87.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7dd8e5-d3ed-4167-a618-1255901cc757")
+	)
+	(wire
+		(pts
+			(xy 73.66 118.11) (xy 87.63 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52612e86-2cdf-42e6-b412-4be4c2520bf2")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 87.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72aeb7cd-e8e2-474c-968f-c36a024f7fb6")
+	)
+	(wire
+		(pts
+			(xy 73.66 111.76) (xy 87.63 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8422346b-2937-41d6-a9ff-ec33344f5e24")
+	)
+	(wire
+		(pts
+			(xy 73.66 114.3) (xy 87.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963f7c41-e05f-4385-995b-42610a4a32bb")
+	)
+	(wire
+		(pts
+			(xy 73.66 97.79) (xy 87.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac71f693-2361-4d45-832c-9b1683a2936f")
+	)
+	(wire
+		(pts
+			(xy 73.66 120.65) (xy 87.63 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad23750e-9b43-46a6-8dd3-2ff659b1326b")
+	)
+	(wire
+		(pts
+			(xy 73.66 90.17) (xy 87.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c48d4f29-9f44-4b35-8636-46ebe8ebe9ba")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 87.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdcd79c2-b452-439b-85ae-9809dbc3395f")
+	)
+	(wire
+		(pts
+			(xy 73.66 95.25) (xy 87.63 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca4aa63-1954-4c8a-bcd0-67c85edc2735")
+	)
 	(sheet
 		(at 35.56 109.22)
 		(size 38.1 30.48)
@@ -201,6 +336,56 @@
 				(justify right)
 			)
 		)
+		(pin "JTAG_TDI" input
+			(at 73.66 95.25 0)
+			(uuid "cb203f1e-9a1a-47ce-b959-98814ae858a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG_NRST" input
+			(at 73.66 97.79 0)
+			(uuid "a81f4c6f-b950-42a6-a8ff-8093f3b03b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG_TMS" input
+			(at 73.66 87.63 0)
+			(uuid "dfbb4b12-2bd6-4372-bd79-0360e36ceedc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG_TDO" input
+			(at 73.66 92.71 0)
+			(uuid "70b307a3-1d01-458c-8542-519346821383")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG_TCK" input
+			(at 73.66 90.17 0)
+			(uuid "acd53675-db1e-4f3a-a719-5e898d934913")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "FlightComputer"
 				(path "/e49ed6f8-44fe-4a80-bc0f-4dd2a2b50b4e"
@@ -210,7 +395,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 33.02)
+		(at 87.63 33.655)
 		(size 38.1 106.68)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -226,7 +411,7 @@
 		)
 		(uuid "779d6e54-c360-49ac-b48f-25c89b139451")
 		(property "Sheetname" "Microcontroller"
-			(at 104.14 32.3084 0)
+			(at 87.63 32.9434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,12 +420,142 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 104.14 140.2846 0)
+			(at 87.63 140.9196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "dIO_USB_DN" input
+			(at 87.63 77.47 180)
+			(uuid "9a2fda59-d148-4fb7-9a59-c60d8c091b66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 87.63 111.76 180)
+			(uuid "c443b069-4cf9-4f85-93b9-58335af0f1e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "dIO_USB_DP" input
+			(at 87.63 74.93 180)
+			(uuid "a1a329b7-ddbc-4cd6-afb3-b0a82a8f90a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG_TDO" input
+			(at 87.63 92.71 180)
+			(uuid "0583ca41-7ed3-4fcc-9c39-3aacfcab7324")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG_TDI" input
+			(at 87.63 95.25 180)
+			(uuid "582f8e6f-c7ee-4a17-bf97-9c449f5b4731")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG_TMS" input
+			(at 87.63 87.63 180)
+			(uuid "83326c67-041d-4e4d-bb50-bebe4f1a6c68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG_TCK" input
+			(at 87.63 90.17 180)
+			(uuid "8263ba0f-b100-46c7-bc66-75ddd5fb814d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 87.63 114.3 180)
+			(uuid "460bbefe-f945-422f-aa44-62336dc8dfdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "dIO_INT2_ACCEL" input
+			(at 87.63 120.65 180)
+			(uuid "98aa52a7-8653-484d-90fd-7dbd55618965")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "dIO_INT1_GYRO" input
+			(at 87.63 123.19 180)
+			(uuid "f251c317-aa68-41c4-beb3-608306a6e09e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "dIO_INT2_GYRO" input
+			(at 87.63 125.73 180)
+			(uuid "15452eaf-7db7-4372-b09c-c25deeffe85b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "dIO_INT1_ACCEL" input
+			(at 87.63 118.11 180)
+			(uuid "8a35fef4-5dfe-444d-8b7c-c6661358108b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG_NRST" input
+			(at 87.63 97.79 180)
+			(uuid "9945e85c-b575-43d3-9cd5-584ee0d6bb31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

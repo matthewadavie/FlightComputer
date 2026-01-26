@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "c1eaea2e-ab73-4b4d-a150-74bf5813c797")
 	(paper "A4")
+	(title_block
+		(title "Flight Computer: Sensors")
+		(date "2026-01-19")
+		(rev "A0.1")
+		(company "MD")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -3970,7 +3976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomKicadFootprints:BMI088"
 			(at 180.34 49.53 0)
 			(effects
 				(font
